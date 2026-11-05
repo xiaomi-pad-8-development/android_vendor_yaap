@@ -16,5 +16,7 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-	hardware/google/pixel-sepolicy/flipendo \
 	hardware/google/pixel-sepolicy/turbo_adapter
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+	hardware/google/pixel-sepolicy/flipendo
